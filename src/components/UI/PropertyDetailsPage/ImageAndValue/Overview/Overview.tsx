@@ -58,7 +58,7 @@ const overview2 = [
 const Overview = () => {
   return (
     <div>
-      <Box sx={{ backgroundColor: "#F9FAFB", padding: "24px" }}>
+      <Box sx={{ backgroundColor: "#F9FAFB", padding: "24px", color: "black" }}>
         <Typography fontSize="24px" fontWeight="bold">
           Overview
         </Typography>

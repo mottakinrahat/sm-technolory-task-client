@@ -31,7 +31,6 @@ const Navbar = () => {
         color: darkMode ? "white" : "black",
       }} // Added position relative
       maxHeight={96}
-      fontFamily="Montserrat"
       fontSize={18}
     >
       <Stack

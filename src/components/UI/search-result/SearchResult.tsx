@@ -136,7 +136,7 @@ const SearchResult = () => {
                       Total Area
                     </Typography>
                     <Typography fontSize="14px" color="#535353">
-                      {property?.propertyArea} sqft
+                      {property?.propertyArea} 
                     </Typography>
                   </Box>
                 </Stack>

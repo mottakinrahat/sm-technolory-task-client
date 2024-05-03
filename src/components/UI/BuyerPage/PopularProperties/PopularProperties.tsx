@@ -22,7 +22,7 @@ const PopularProperties = () => {
   return (
     <Box marginX={{ md: "112px", sm: "20px", xs: "20px" }}>
       <Stack direction="row" justifyContent="space-between" alignItems="center">
-        <Typography fontSize="32px" fontFamily="Montserrat">
+        <Typography fontSize="32px">
           Popular Properties
         </Typography>
         <Link href="/allProperty">See all property</Link>

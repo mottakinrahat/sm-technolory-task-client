@@ -24,7 +24,23 @@ const MenuProps = {
     },
   },
 };
+const locationType = [
+  "Greenfield, USA",
+  "Cozy Condo",
+  "Malibu, CA",
+  "Downtown Loft",
+  "Aspen, CO",
+  "Other",
+];
 const names = ["House", "Apartment", "Condo", "Townhouse", "Land", "Other"];
+const price = [
+  "1000000-3000000",
+  "3000000-5000000",
+  "5000000-7000000",
+  "7000000-10000000",
+  "10000000-50000000",
+  "50000000-100000000",
+];
 function getStyles(name: string, personName: string[], theme: Theme) {
   return {
     fontWeight:
@@ -99,7 +115,7 @@ const BuyItem = () => {
             input={<OutlinedInput label="Name" />}
             MenuProps={MenuProps}
           >
-            {names.map((name) => (
+            {locationType.map((name) => (
               <MenuItem
                 key={name}
                 value={name}
@@ -170,7 +186,7 @@ const BuyItem = () => {
             input={<OutlinedInput label="Name" />}
             MenuProps={MenuProps}
           >
-            {names.map((name) => (
+            {price.map((name) => (
               <MenuItem
                 key={name}
                 value={name}
